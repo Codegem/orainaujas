@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background: blue;
+}
+
+h1{
+    justify:center;
+    margin-left:10%;
+    color: white;
+}
+
+/* searcho lauko formating */
+
+.input-group{
+    margin: 0.5rem;
+}
+
+.inputas{
+    outline: none;
+}
+
+.search-btn{
+    background-color: white;
+    position: absolute;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+}
+
+/* searcho lauko formating */
+.container-fluid{
+    padding: 0;
+}
+
+.locations{
+    margin: 0;
+    background: url('img/clouds.jpeg') no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.locationbtn{
+    margin-top: 1rem;
+    text-align: left;
+    height: 1.8rem;
+    width:12rem;
+    padding: 0.2em;
+}
+
+#vietove{
+    padding: 1rem;
+}
+
+svg{
+    width: 2rem;
+}
+
+.card1{
+    padding: 1rem;
+    width: 25rem;
+    height: 9rem;
+    border-top: solid 5px chocolate;
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+}
+.card1 > .card-body{
+    margin: 0;
+    display: grid;
+    grid-template-rows: 1rem 5rem; 
+    grid-template-columns: 5rem 4rem 12rem;
+    grid-template-areas: "h5 h5 h5"
+                         "i temp aprasas";
+    grid-gap: 0;
+}
+.card1 > .card-head > h5 {
+    grid-area: h5;
+}
+
+.card1 > .card-body > i{
+    grid-area: i;
+    font-size: 3rem;
+    margin-right: 0.5rem;
+} 
+
+.card1 > .card-body > #temperatura {
+    margin-left: 0.5rem;
+    grid-area: temp;
+    border-right: 2px solid black;
+}
+
+.card1 > .card-body > #aprasymas {
+    margin-left: 1rem;
+    grid-area: aprasas;
+}
+
+.days-navigation ul li{
+    display: inline-block;
+    text-decoration: none;
+    vertical-align: bottom;
+}
+
+/* .days-navigation ul li:hover{
+    border-top: solid chocolate 2px;
+} */
+
+.days-navigation ul li:focus{
+    border-top: solid chocolate 2px;
+}
+
+.card2{
+    width: 8rem;
+    height: 6rem;
+    border-bottom: solid 5px chocolate;
+    border-radius: 0;
+}
+.card2:hover{
+    border-bottom: none;
+    border-top: solid 5px chocolate;
+}
+.card2 > i{
+    font-size: 2rem;
+}
+#valandine-forma{
+    padding:1.5rem;
+    text-align: center;
+    justify-content: center;
+    display: grid;
+    /* grid-template-columns: 10rem 10rem 10rem 10rem 10rem 10rem 10rem 10rem 10rem 10rem 10rem 10rem 10rem 10rem 10rem; */
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    grid-template-rows: auto;
+    grid-gap: none;
+}
+#valandine-forma > div{
+    margin: 0;
+    padding: 0;
+}
+
+.card3{
+    width: 4rem;
+    height: 20rem;
+    border-bottom: solid 3px chocolate;
+    border-radius: 0;
+}
+.card3:hover{
+    border-bottom: none;
+    border-top: solid 3px chocolate;
+}
+.card3 > i{
+    font-size: 2rem;
+}
