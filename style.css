@@ -99,6 +99,12 @@ svg{
     grid-area: aprasas;
 }
 
+.days-navigation{
+    justify-content: center;
+    width: 97%;
+    margin: 2%;
+}
+
 .days-navigation ul li{
     display: inline-block;
     text-decoration: none;
@@ -119,6 +125,7 @@ svg{
     border-bottom: solid 5px chocolate;
     border-radius: 0;
 }
+
 .card2:hover{
     border-bottom: none;
     border-top: solid 5px chocolate;
@@ -154,3 +161,80 @@ svg{
 .card3 > i{
     font-size: 2rem;
 }
+
+.card4{
+    width: 8rem;
+    height: 6rem;
+    border-bottom: solid 5px chocolate;
+    border-radius: 0;
+}
+
+.card4:hover{
+    border-bottom: none;
+    border-top: solid 5px chocolate;
+}
+.card4 > i{
+    font-size: 2rem;
+}
+
+.card5{
+    width: 8rem;
+    height: 6rem;
+    border-bottom: solid 5px chocolate;
+    border-radius: 0;
+}
+
+.card5:hover{
+    border-bottom: none;
+    border-top: solid 5px chocolate;
+}
+.card5 > i{
+    font-size: 2rem;
+}
+
+.card6{
+    width: 8rem;
+    height: 6rem;
+    border-bottom: solid 5px chocolate;
+    border-radius: 0;
+}
+
+.card6:hover{
+    border-bottom: none;
+    border-top: solid 5px chocolate;
+}
+.card6 > i{
+    font-size: 2rem;
+}
+
+.card7{
+    width: 8rem;
+    height: 6rem;
+    border-bottom: solid 5px chocolate;
+    border-radius: 0;
+}
+
+.card7:hover{
+    border-bottom: none;
+    border-top: solid 5px chocolate;
+}
+.card7 > i{
+    font-size: 2rem;
+}
+
+.card8{
+    width: 8rem;
+    height: 6rem;
+    border-bottom: solid 5px chocolate;
+    border-radius: 0;
+}
+
+.card8:hover{
+    border-bottom: none;
+    border-top: solid 5px chocolate;
+}
+.card8 > i{
+    font-size: 2rem;
+}
+
+
